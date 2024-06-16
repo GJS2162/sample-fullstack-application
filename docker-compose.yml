@@ -4,7 +4,7 @@ services:
 
   frontend:
     container_name: frontend
-    image: ghcr.io/GJS2162/sample-fullstack-application-frontend:latest
+    image: ghcr.io/gjs2162/sample-fullstack-application-frontend:latest
     ports:
       - 3001:3000
     environment:
@@ -15,7 +15,7 @@ services:
 
   backend:
     container_name: backend
-    image: ghcr.io/GJS2162/sample-fullstack-application-backend:latest
+    image: ghcr.io/gjs2162/sample-fullstack-application-backend:latest
     ports:
       - 3000:3000
     environment:
